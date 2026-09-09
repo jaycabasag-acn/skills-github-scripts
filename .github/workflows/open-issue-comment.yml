@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      puses: actions/Checkout@v2
+      uses: actions/Checkout@v2
 
     - name: Comment on new openned issue
       uses: actions/github-script@0.8.0
